@@ -1,0 +1,3 @@
+string = input()
+max_width = int(input())
+print(textwrap.fill(string, max_width))
