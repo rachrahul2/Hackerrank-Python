@@ -1,0 +1,5 @@
+N = int(input())
+H = list(map(int, input().split()))
+len(H) == N
+H = set(H)
+print ('{:.3f}'.format(sum(H) / len(H)))
